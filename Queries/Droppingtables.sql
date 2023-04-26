@@ -1,0 +1,6 @@
+USE GroundhogBus;
+
+DROP TABLE IF EXISTS CharterAssignment;
+DROP TABLE IF EXISTS BusDriverCertification;
+DROP TABLE IF EXISTS BusDriver;
+DROP TABLE IF EXISTS Bus;

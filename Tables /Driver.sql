@@ -1,0 +1,9 @@
+CREATE DATABASE GroundhogBus 
+USE GroundhogBus
+CREATE TABLE BusDriver (
+    DLN VARCHAR(50) PRIMARY KEY,
+    SSN VARCHAR(50) NOT NULL UNIQUE,
+    birthdate DATE NOT NULL,
+    fname VARCHAR(50) NOT NULL,
+    Iname VARCHAR(50) NOT NULL
+);
